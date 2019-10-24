@@ -8,4 +8,15 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+    <style name="ButtonMain">
+
+        <item name="android:background">@drawable/button_main</item>
+
+    </style>
+
+    <style name="ChatFragment">
+        <item name="android:background">@drawable/chat_fragment_style</item>
+    </style>
+
 </resources>
