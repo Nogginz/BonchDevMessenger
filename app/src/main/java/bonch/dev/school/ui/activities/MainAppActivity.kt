@@ -28,6 +28,7 @@ class MainAppActivity: FragmentActivity() {
         manager.beginTransaction().replace(R.id.fragment,profileFragment).addToBackStack("fragment_chat").commit()
     }
     fun changePass(){
-        manager.beginTransaction().replace(R.id.fragment,passFragment).addToBackStack("fragment_profile").commit()
+        passFragment.show(manager, "dialog")
+        //manager.beginTransaction().replace(R.id.fragment,passFragment).addToBackStack("fragment_profile").commit()
     }
 }

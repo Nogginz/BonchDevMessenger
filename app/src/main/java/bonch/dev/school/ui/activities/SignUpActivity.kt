@@ -8,8 +8,11 @@ import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import bonch.dev.school.R
 
-private lateinit var completeSignUpBtn:Button
+
 class SignUpActivity: AppCompatActivity() {
+
+    private lateinit var completeSignUpBtn:Button
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.sign_up_activity)
