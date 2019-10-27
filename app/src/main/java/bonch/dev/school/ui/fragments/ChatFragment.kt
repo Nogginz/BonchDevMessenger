@@ -21,7 +21,7 @@ class ChatFragment:Fragment() {
         val view = inflater.inflate(R.layout.fragment_chat, container, false)
         sendMessageBtn = view.findViewById(R.id.button)
         sendMessageBtn.setOnClickListener( View.OnClickListener(){
-            (activity as MainAppActivity).replace()
+            //(activity as MainAppActivity).replace()
         })
         return view
     }
